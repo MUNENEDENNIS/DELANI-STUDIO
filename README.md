@@ -7,13 +7,13 @@ This web application showcases some of the services offered by the fictional stu
 * GIT
 * A Code Editor (Atom or Visual Studio Code will do)
 ## SETUP
-git clone https://github.com/MUNENEDENNIS/DELANI-STUDIO
+Git Clone https://github.com/MUNENEDENNIS/DELANI-STUDIO
 
-extract the file.
+Extract file
 
-navigate to the DELANI-STUDIO directory.
+Navigate to DELANI-STUDIO directory
 
-Open index.html via Atom . or VSCode . command 
+Open index.html via Atom or VSCode command 
 ## Known Bugs
 NO known bugs
 ## Technologies Used
