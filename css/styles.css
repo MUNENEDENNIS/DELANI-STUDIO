@@ -43,4 +43,31 @@ html {
 		 60% {
 		 transform: translateY(-45px);
 		 }
-		 }
+   }
+   .about{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#about-us{
+    font-family: sans-serif;
+}
+.services{
+    background-image: url("../css/img/s_image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+.what-we-do{
+    text-align: center;
+    padding-top: 3%;
+}
+.what-we-do h2{
+    margin-bottom: 3%;
+    text-align: center;
+}
