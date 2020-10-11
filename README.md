@@ -3,9 +3,17 @@
 #### By **Dennis Munene**
 ## Description
 This web application showcases some of the services offered by the fictional studio alongside a complete description of what the said service is about. Also included on the page is a list of past projects together with a form which allows users to input and send their message.
-## Setup/Installation Requirements
+## Installation Requirements
 * GIT
 * A Code Editor (Atom or Visual Studio Code will do)
+## SETUP
+git clone https://github.com/MUNENEDENNIS/DELANI-STUDIO
+
+extract the file.
+
+navigate to the DELANI-STUDIO directory.
+
+Open index.html via Atom . or VSCode . command 
 ## Known Bugs
 NO known bugs
 ## Technologies Used
