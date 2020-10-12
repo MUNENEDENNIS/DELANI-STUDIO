@@ -1,76 +1,88 @@
-$(document).ready(function () {
-    $("#design-image").click(function () {
+$(document).ready(function() {
+    $("#design-image").click(function() {
         $("#design-image").slideDown('1500').hide('1000');
         $("#design").show('1500');
     });
-    $("#design").click(function () {
+    $("#design").click(function() {
         $("#design").slideUp('2000');
         $("#design-image").slideDown('2000');
     });
-    $("#development-image").click(function () {
+    $("#development-image").click(function() {
         $("#development-image").slideDown('2000').hide('1500');
         $("#development").show('2000');
     });
-    $("#development").click(function () {
+    $("#development").click(function() {
         $("#development").slideUp('2000');
         $("#development-image").slideDown('2000');
     });
-    $("#product-image").click(function () {
+    $("#product-image").click(function() {
         $("#product-image").slideDown('2000').hide('1500');
         $("#product").show('2000');
     });
-    $("#product").click(function () {
+    $("#product").click(function() {
         $("#product").slideUp('2000');
         $("#product-image").slideDown('2000');
     });
 });
-$(document).ready(function () {
-    $("#project1").mouseover(function () {
+$(document).ready(function() {
+    $("#project1").mouseover(function() {
         $("#p1").show();
-    }).mouseout(function () {
+    }).mouseout(function() {
         $("#p1").hide();
     });
 
-    $("#project2").mouseover(function () {
+    $("#project2").mouseover(function() {
         $("#hover2").show();
-    }).mouseout(function () {
+    }).mouseout(function() {
         $("#hover2").hide();
     });
 
-    $("#project3").mouseover(function () {
+    $("#project3").mouseover(function() {
         $("#hover3").show();
-    }).mouseout(function () {
+    }).mouseout(function() {
         $("#hover3").hide();
     });
 
-    $("#project4").mouseover(function () {
+    $("#project4").mouseover(function() {
         $("#hover4").show();
-    }).mouseout(function () {
+    }).mouseout(function() {
         $("#hover4").hide();
     });
 
-    $("#project5").mouseover(function () {
+    $("#project5").mouseover(function() {
         $("#hover5").show();
-    }).mouseout(function () {
+    }).mouseout(function() {
         $("#hover5").hide();
     });
 
-    $("#project6").mouseover(function () {
+    $("#project6").mouseover(function() {
         $("#hover6").show();
-    }).mouseout(function () {
+    }).mouseout(function() {
         $("#hover6").hide();
     });
 
-    $("#project7").mouseover(function () {
+    $("#project7").mouseover(function() {
         $("#hover7").show();
-    }).mouseout(function () {
+    }).mouseout(function() {
         $("#hover7").hide();
     });
 
-    $("#project8").mouseover(function () {
+    $("#project8").mouseover(function() {
         $("#hover8").show();
-    }).mouseout(function () {
+    }).mouseout(function() {
         $("#hover8").hide();
     });
 
 });
+$(document).ready(function() {
+            $("form#form1").submit(function() {
+                var name = $("input#NAME1").val();
+                var email = $("input#EMAIL1").val();
+                var message = $("textarea#comment").val();
+                if ($("input#NAME1").val() && $("input#EMAIL1").val()) {
+                    alert(name + "  Your message has been received");
+                } else {
+                    alert("You must enter your name and email!");
+                }
+
+            });
