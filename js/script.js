@@ -74,15 +74,3 @@ $(document).ready(function() {
     });
 
 });
-$(document).ready(function() {
-            $("form#form1").submit(function() {
-                var name = $("input#NAME1").val();
-                var email = $("input#EMAIL1").val();
-                var message = $("textarea#comment").val();
-                if ($("input#NAME1").val() && $("input#EMAIL1").val()) {
-                    alert(name + "  Your message has been received");
-                } else {
-                    alert("You must enter your name and email!");
-                }
-
-            });
