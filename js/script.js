@@ -7,3 +7,20 @@ $(document).ready(function () {
         $("#design").slideUp('2000');
         $("#design-image").slideDown('2000');
     });
+    $("#development-image").click(function () {
+        $("#development-image").slideDown('2000').hide('1500');
+        $("#development").show('2000');
+    });
+    $("#development").click(function () {
+        $("#development").slideUp('2000');
+        $("#development-image").slideDown('2000');
+    });
+    $("#product-image").click(function () {
+        $("#product-image").slideDown('2000').hide('1500');
+        $("#product").show('2000');
+    });
+    $("#product").click(function () {
+        $("#product").slideUp('2000');
+        $("#product-image").slideDown('2000');
+    });
+});
