@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 html {
     scroll-behavior: smooth;
 }
@@ -124,4 +123,26 @@ input[type=text],input[type=email],#comment{
 #comment{
     margin-left: 20%;
     width: 60%;
+}
+button{
+    margin-left: 20%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'ubuntuUI', cursive;
+}
+footer p{
+    margin-top: 10px;
+}
+#product, #development, #design{
+    display: none;
+    font-family: 'ubuntuUI', serif;
+    font-size: 16px;
+}
+#product .heading1, #development .heading1, #design .heading1{
+    font-size: 20px;
+    font-weight: 600;
 }
