@@ -24,3 +24,22 @@ $(document).ready(function () {
         $("#product-image").slideDown('2000');
     });
 });
+$(document).ready(function () {
+
+	 $("#project1").mouseover(function () {
+	 $("#hover1").show();
+	 }).mouseout(function () {
+	 $("#hover1").hide();
+	 });
+
+	 $("#project2").mouseover(function () {
+	 $("#hover2").show();
+	 }).mouseout(function () {
+	 $("#hover2").hide();
+	 });
+
+	 $("#project3").mouseover(function () {
+	 $("#hover3").show();
+	 }).mouseout(function () {
+	 $("#hover3").hide();
+	 });
